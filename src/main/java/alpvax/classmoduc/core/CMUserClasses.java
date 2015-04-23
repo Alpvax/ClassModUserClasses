@@ -1,6 +1,7 @@
 package alpvax.classmoduc.core;
 
 import alpvax.classmodcore.api.classes.PlayerClassRegistry;
+import alpvax.classmoduc.classes.Demon;
 import alpvax.classmoduc.permission.UserClassPermission;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -32,7 +33,7 @@ public class CMUserClasses
 	@EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
-		//TODO:PlayerClassRegistry.registerPlayerClass(new Demon(), "user", new UserClassPermission("Alpvax"));
+		PlayerClassRegistry.registerPlayerClass(new Demon("Demon"), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new Dwarf(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new EndSpawn(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new WereWolf(), "user", new UserClassPermission("Alpvax"));

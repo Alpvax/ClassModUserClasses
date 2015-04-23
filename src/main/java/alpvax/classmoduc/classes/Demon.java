@@ -1,23 +1,20 @@
 package alpvax.classmoduc.classes;
 
-import java.util.List;
-
+import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import alpvax.classmodcore.api.classes.SimplePlayerClass;
 import alpvax.classmodcore.api.powers.PowerEntry;
+import alpvax.classmodcore.api.powers.PowerFireResist;
+import alpvax.classmodcore.api.powers.PowerInMaterialMoveSpeed;
 
 public class Demon extends SimplePlayerClass
 {
 
 	public Demon(String name)
 	{
-		super(name);// TODO Auto-generated constructor stub
-	}
-
-	@Override
-	public List<PowerEntry> getPowers()
-	{
-		return null;// TODO Auto-generated method stub
+		super(name);
+		addPower(new PowerEntry.Passive(new PowerFireResist()).addData("multiplier", Float.valueOf(0F)));
+		addPower(new PowerEntry.Toggle(new PowerInMaterialMoveSpeed("Lava"), 0).addData("multiplier", Float.valueOf(2F)).addData("material", Material.lava));
 	}
 
 	@Override
