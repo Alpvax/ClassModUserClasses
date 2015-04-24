@@ -13,8 +13,8 @@ public class Demon extends SimplePlayerClass
 	public Demon(String name)
 	{
 		super(name);
-		addPower(new PowerEntry.Passive(new PowerFireResist()).addData("multiplier", Float.valueOf(0F)));
-		addPower(new PowerEntry.Toggle(new PowerInMaterialMoveSpeed("Lava"), 0).addData("multiplier", Float.valueOf(2F)).addData("material", Material.lava));
+		addPower(new PowerEntry.Passive(new PowerFireResist(0F)));
+		addPower(new PowerEntry.Toggle(new PowerInMaterialMoveSpeed("Lava", 2F, Material.lava), 0));
 	}
 
 	@Override
