@@ -33,7 +33,7 @@ public class CMUserClasses
 	@EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
-		PlayerClassRegistry.registerPlayerClass(new Demon("demon").setDisplayName("Demon"), "user", new UserClassPermission("Alpvax"));
+		PlayerClassRegistry.registerPlayerClass(new Demon("user.demon").setDisplayName("Demon"), new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new Dwarf(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new EndSpawn(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new WereWolf(), "user", new UserClassPermission("Alpvax"));
