@@ -23,13 +23,13 @@ public class CMUserClasses
 	public static CommonProxy proxy;
 
 	public static AlpPacketManager packetHandler;*/
-	
+
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		instance = this;
 	}
-	
+
 	@EventHandler
 	public void Init(FMLInitializationEvent event)
 	{

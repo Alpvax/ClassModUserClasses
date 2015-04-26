@@ -11,7 +11,7 @@ import alpvax.classmodcore.api.permissions.SimpleClassPermission;
 public class UserClassPermission extends SimpleClassPermission
 {
 	private String username;
-	
+
 	public UserClassPermission(String name)
 	{
 		super(true);
