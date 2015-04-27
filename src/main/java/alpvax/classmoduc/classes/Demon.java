@@ -6,6 +6,7 @@ import alpvax.classmodcore.api.powers.PowerEntry;
 import alpvax.classmodcore.api.powers.PowerFireResist;
 import alpvax.classmodcore.api.powers.PowerInMaterialMoveSpeed;
 
+
 public class Demon extends SimplePlayerClass
 {
 

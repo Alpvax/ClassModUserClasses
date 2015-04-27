@@ -1,13 +1,14 @@
 package alpvax.classmoduc.core;
 
-import alpvax.classmodcore.api.classes.PlayerClassRegistry;
-import alpvax.classmoduc.classes.Demon;
-import alpvax.classmoduc.permission.UserClassPermission;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import alpvax.classmodcore.api.classes.PlayerClassRegistry;
+import alpvax.classmoduc.classes.Demon;
+import alpvax.classmoduc.permission.UserClassPermission;
+
 
 /**
  * @author Alpvax
