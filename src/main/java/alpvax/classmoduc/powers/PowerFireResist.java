@@ -17,5 +17,4 @@ public class PowerFireResist extends PowerResist
 	{
 		return src.isFireDamage();
 	}
-
 }
