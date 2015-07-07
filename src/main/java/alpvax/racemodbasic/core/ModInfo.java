@@ -1,4 +1,4 @@
-package alpvax.classmoduc.core;
+package alpvax.racemodbasic.core;
 
 public class ModInfo
 {

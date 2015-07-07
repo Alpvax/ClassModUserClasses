@@ -1,8 +1,7 @@
-package alpvax.classmoduc.permission;
+package alpvax.racemodbasic.permission;
 
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
-import alpvax.classmodcore.api.permissions.SimpleClassPermission;
 
 
 /**

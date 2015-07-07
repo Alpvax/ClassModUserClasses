@@ -1,8 +1,8 @@
-package alpvax.classmoduc.powers;
+package alpvax.racemodbasic.powers;
 
+import alpvax.racemod.api.powers.PowerResist;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;
-import alpvax.classmodcore.api.powers.PowerResist;
 
 
 public class PowerFireResist extends PowerResist

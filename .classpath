@@ -4,7 +4,7 @@
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/AlpCore"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/ClassModCore">
+	<classpathentry combineaccessrules="false" kind="src" path="/RaceModCore">
 		<accessrules>
 			<accessrule kind="accessible" pattern="alpvax/classmodcore/api/**"/>
 			<accessrule kind="nonaccessible" pattern="**"/>

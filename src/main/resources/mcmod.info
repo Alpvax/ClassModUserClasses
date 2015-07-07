@@ -11,6 +11,6 @@
   "credits": "TODO",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": ["alpcore"]
+  "dependencies": ["AlpCore", RaceModCore]
 }
 ]

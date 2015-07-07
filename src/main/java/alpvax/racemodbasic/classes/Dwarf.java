@@ -1,13 +1,12 @@
-package alpvax.classmoduc.classes;
+package alpvax.racemodbasic.classes;
 
+import alpvax.racemod.api.powers.PowerEntry;
+import alpvax.racemod.api.powers.PowerMineSpeed;
+import alpvax.racemod.api.powers.PowerOblivious;
+import alpvax.racemod.api.powers.PowerReach;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.monster.EntitySpider;
 import net.minecraft.entity.player.EntityPlayer;
-import alpvax.classmodcore.api.classes.SimplePlayerClass;
-import alpvax.classmodcore.api.powers.PowerEntry;
-import alpvax.classmodcore.api.powers.PowerMineSpeed;
-import alpvax.classmodcore.api.powers.PowerOblivious;
-import alpvax.classmodcore.api.powers.PowerReach;
 
 
 public class Dwarf extends SimplePlayerClass

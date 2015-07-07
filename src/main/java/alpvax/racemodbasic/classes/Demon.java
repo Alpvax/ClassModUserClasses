@@ -1,5 +1,12 @@
-package alpvax.classmoduc.classes;
+package alpvax.racemodbasic.classes;
 
+import alpvax.racemod.api.powers.PowerEntry;
+import alpvax.racemod.api.powers.PowerInMaterialMoveSpeed;
+import alpvax.racemod.api.powers.PowerInMaterialSelfDamage;
+import alpvax.racemod.api.powers.PowerOblivious;
+import alpvax.racemod.api.powers.PowerPackAggro;
+import alpvax.racemod.api.powers.PowerRandBlock;
+import alpvax.racemodbasic.powers.PowerFireResist;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
@@ -17,17 +24,9 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.world.World;
 import net.minecraftforge.oredict.OreDictionary;
-import alpvax.classmodcore.api.classes.SimplePlayerClass;
-import alpvax.classmodcore.api.powers.PowerEntry;
-import alpvax.classmodcore.api.powers.PowerInMaterialMoveSpeed;
-import alpvax.classmodcore.api.powers.PowerInMaterialSelfDamage;
-import alpvax.classmodcore.api.powers.PowerOblivious;
-import alpvax.classmodcore.api.powers.PowerPackAggro;
-import alpvax.classmodcore.api.powers.PowerRandBlock;
-import alpvax.classmoduc.powers.PowerFireResist;
 
 
-public class Demon extends SimplePlayerClass
+public class Demon extends SimpleRace
 {
 
 	public Demon(String name)

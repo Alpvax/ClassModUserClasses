@@ -1,4 +1,4 @@
-package alpvax.classmoduc.block;
+package alpvax.racemodbasic.block;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;

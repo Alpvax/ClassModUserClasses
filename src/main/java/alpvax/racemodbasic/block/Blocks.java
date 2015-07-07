@@ -1,4 +1,4 @@
-package alpvax.classmoduc.block;
+package alpvax.racemodbasic.block;
 
 import java.io.File;
 

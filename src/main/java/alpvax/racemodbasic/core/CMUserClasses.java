@@ -1,13 +1,12 @@
-package alpvax.classmoduc.core;
+package alpvax.racemodbasic.core;
 
+import alpvax.racemodbasic.classes.Demon;
+import alpvax.racemodbasic.permission.UserClassPermission;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import alpvax.classmodcore.api.classes.PlayerClassRegistry;
-import alpvax.classmoduc.classes.Demon;
-import alpvax.classmoduc.permission.UserClassPermission;
 
 
 /**
@@ -20,7 +19,7 @@ public class CMUserClasses
 	@Instance(ModInfo.MOD_ID)
 	public static CMUserClasses instance;
 
-	/*@SidedProxy(clientSide = "alpvax.classmodcore.network.ClientProxy", serverSide = "alpvax.classmodcore.network.CommonProxy")
+	/*@SidedProxy(clientSide = "alpvax.racemod.network.ClientProxy", serverSide = "alpvax.racemod.network.CommonProxy")
 	public static CommonProxy proxy;
 
 	public static AlpPacketManager packetHandler;*/
@@ -34,7 +33,7 @@ public class CMUserClasses
 	@EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
-		PlayerClassRegistry.registerPlayerClass(new Demon("user.demon").setDisplayName("Demon"), new UserClassPermission("Alpvax"));
+		RaceRegistry.registerPlayerClass(new Demon("user.demon").setDisplayName("Demon"), new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new Dwarf(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new EndSpawn(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new WereWolf(), "user", new UserClassPermission("Alpvax"));
