@@ -4,12 +4,13 @@ import alpvax.racemod.api.powers.PowerEntry;
 import alpvax.racemod.api.powers.PowerMineSpeed;
 import alpvax.racemod.api.powers.PowerOblivious;
 import alpvax.racemod.api.powers.PowerReach;
+import alpvax.racemod.api.race.SimpleRace;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.monster.EntitySpider;
 import net.minecraft.entity.player.EntityPlayer;
 
 
-public class Dwarf extends SimplePlayerClass
+public class Dwarf extends SimpleRace
 {
 	public Dwarf(String id)
 	{

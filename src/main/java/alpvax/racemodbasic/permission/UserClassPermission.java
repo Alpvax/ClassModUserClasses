@@ -1,5 +1,6 @@
 package alpvax.racemodbasic.permission;
 
+import alpvax.racemod.api.permissions.SimpleRacePermission;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
 
@@ -8,7 +9,7 @@ import net.minecraft.entity.player.EntityPlayer;
  * @author Alpvax
  *
  */
-public class UserClassPermission extends SimpleClassPermission
+public class UserClassPermission extends SimpleRacePermission
 {
 	private String username;
 

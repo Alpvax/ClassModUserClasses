@@ -6,6 +6,7 @@ import alpvax.racemod.api.powers.PowerInMaterialSelfDamage;
 import alpvax.racemod.api.powers.PowerOblivious;
 import alpvax.racemod.api.powers.PowerPackAggro;
 import alpvax.racemod.api.powers.PowerRandBlock;
+import alpvax.racemod.api.race.SimpleRace;
 import alpvax.racemodbasic.powers.PowerFireResist;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

@@ -1,5 +1,6 @@
 package alpvax.racemodbasic.core;
 
+import alpvax.racemod.api.race.RaceRegistry;
 import alpvax.racemodbasic.classes.Demon;
 import alpvax.racemodbasic.permission.UserClassPermission;
 import net.minecraftforge.fml.common.Mod;
@@ -13,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
  * @author Alpvax
  *
  */
-@Mod(modid = ModInfo.MOD_ID, name = ModInfo.MOD_NAME, version = ModInfo.MOD_VERSION)
+@Mod(modid = ModInfo.MOD_ID, name = ModInfo.MOD_NAME, version = ModInfo.MOD_VERSION, dependencies="required-after:RaceModCore")
 public class CMUserClasses
 {
 	@Instance(ModInfo.MOD_ID)
@@ -33,7 +34,7 @@ public class CMUserClasses
 	@EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
-		RaceRegistry.registerPlayerClass(new Demon("user.demon").setDisplayName("Demon"), new UserClassPermission("Alpvax"));
+		RaceRegistry.registerRace(new Demon("user.demon").setDisplayName("Demon"), new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new Dwarf(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new EndSpawn(), "user", new UserClassPermission("Alpvax"));
 		//TODO:PlayerClassRegistry.registerPlayerClass(new WereWolf(), "user", new UserClassPermission("Alpvax"));
